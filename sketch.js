@@ -37,7 +37,7 @@ function mousePressed() {
 function setup() {
   createCanvas(canvasWidth, canvasHeight);
   frameRate(5);
-  textFont(customFont);
+  //textFont(customFont);
   
   button = createButton('Next Poem');
   button.position(10, canvasHeight + 10);
